@@ -2,4 +2,4 @@
 
 Folder ini berisi kode utama AskStudy.
 
-- main.py: program utama untuk membaca data dan menjalankan fitur AskStudy
+- main.py: file utama untuk menjalankan aplikasi AskStudy melalui terminal
