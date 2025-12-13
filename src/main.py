@@ -1,1 +1,2 @@
-print("AskStudy AI is loading...")
+print("Welcome to AskStudy")
+
