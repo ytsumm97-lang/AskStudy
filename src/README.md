@@ -1,11 +1,5 @@
-# AskStudy
+# Source Code
 
-AI study assistant yang bisa:
-- jawab pertanyaan pelajaran
-- bikin flashcard otomatis
-- kasih koreksi jawaban
-- jelasin konsep dengan ringkas
+Folder ini berisi kode utama AskStudy.
 
-Tools:
-- Python
-- Machine Learning model (to be added)
+- main.py: program utama untuk membaca data dan menjalankan fitur AskStudy
