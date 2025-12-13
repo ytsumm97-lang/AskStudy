@@ -1,15 +1,26 @@
 # AskStudy
 
-AskStudy adalah proyek AI Tutor sederhana yang bertujuan membantu proses belajar.
+AskStudy adalah proyek AI Tutor sederhana berbasis Python yang berjalan secara lokal.
+Proyek ini dirancang untuk membantu belajar dengan cara yang terstruktur dan mudah dipahami.
 
-Fitur utama:
+## Fitur
 - Menjawab pertanyaan pelajaran
 - Membuat soal seperti flashcard
-- Mengoreksi jawaban
-- Memberikan penjelasan konsep dengan bahasa sederhana
-
-Proyek ini dibuat sebagai tugas machine learning dan akan dikembangkan secara bertahap.
+- Mengoreksi jawaban pengguna
+- Memberikan penjelasan konsep secara sederhana
+- Menggunakan data lokal (tanpa API)
 
 ## Struktur Proyek
-- `data/` : menyimpan data soal dan materi
-- `src/`  : kode program utama
+
+AskStudy/
+├─ data/
+│  └─ study_data.csv      # Dataset pertanyaan, jawaban, dan penjelasan
+├─ src/
+│  ├─ main.py             # Program utama (CLI AskStudy)
+│  └─ README.md           # Penjelasan kode di folder src
+├─ models/
+│  └─ (placeholder)       # Untuk logika / model ke depan
+├─ results/
+│  └─ (placeholder)       # Output atau hasil evaluasi
+├─ .gitignore
+└─ README.md              # Dokumentasi utama proyek
